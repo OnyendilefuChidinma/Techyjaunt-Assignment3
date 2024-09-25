@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Hero Section Project</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./images/logo1.png" height="80px" alt="logo">
+        </div>
+        <nav class="responsive-nav" role="navigation" aria-label="Main Navigation">
+            <div class="menu-toggle" onclick="toggleMenu()" aria-controls="menu" aria-expanded="false"
+                aria-label="Toggle Navigation">&#9776;</div>
+            <ul id="menu" role="menu">
+                <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+                <li role="none"><a href="about.html" role="menuitem">About</a></li>
+                <li role="none"><a href="services.html" role="menuitem">Services</a></li>
+                <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+            <div class="video-sect">
+                <video src="https://res.cloudinary.com/dmhuollsd/video/upload/v1712264391/samples/sea-turtle.mp4" muted
+                    loop autoplay>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="text-section">
+                <h1>Welcome to Our Website</h1>
+                <p>Discover amazing content and experiences. We are here to help you explore and learn about our innovation solutions.</p>
+                <button class="hero-btn">Get Started</button>
+            </div>
+    </main>
+
+
+    <script src="hero.js"></script>
+
+</body>
+
+</html>
